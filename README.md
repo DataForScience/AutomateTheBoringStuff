@@ -6,17 +6,16 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DataForScience/AutomateTheBoringStuff)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DataForScience/AutomateTheBoringStuff)
 
-[![Graphs For Science](https://img.shields.io/badge/Graphs_For_Science-Subscribe-blue)](https://graphs4sci.substack.com/)
-	[![Data Science Briefing](https://img.shields.io/badge/Sunday_Briefing-Subscribe-blue)](https://data4science.ck.page/a63d4cc8d9)
+[![Substack](https://img.shields.io/badge/Data_For_Science-Subscribe-blue)](https://data4sci.substack.com/)
+[![Data Science Briefing](https://img.shields.io/badge/Data_Science_Briefing-Subscribe-blue)](https://data4sci.com/newsletter)
 
 ### Code and slides to accompany the online webinar by Data For Science.
 
-LLMs are good at a surprising amount of the tedious work that fills a normal week — pulling structured fields out of free text, summarizing long documents, running multi-step reviews, and answering questions over a knowledge base. This webinar walks through four end-to-end Jupyter notebooks that show how to build each of those workflows with [LangChain](https://www.langchain.com/), [CrewAI](https://www.crewai.com/), and Anthropic's Claude, with practical guardrails, schemas, and evaluation patterns you can lift straight into your own projects.
+LLMs are good at a surprising amount of the tedious work that fills a normal week — pulling structured fields out of free text, summarizing long documents, running multi-step reviews, and answering questions over a knowledge base. This webinar walks through four end-to-end Jupyter notebooks that show how to build each of those workflows with [LangChain](https://www.langchain.com/), [CrewAI](https://www.crewai.com/), and Anthropic's [Claude](https://platform.claude.com/docs/en/home), with practical guardrails, schemas, and evaluation patterns you can lift straight into your own projects.
 
 ## Contents
 
-This tutorial is divided into five parts:
-
+This tutorial is divided into four parts:
 
 ### 1. **Structured Extraction**
 - LLM Review
@@ -24,12 +23,16 @@ This tutorial is divided into five parts:
 - Pydantic schema planning
 - JSON validation loop
 - Prompt guardrail patterns
+**Notebook:** [`1. Structured Extraction.ipynb`](1.%20Structured%20Extraction.ipynb)
+Turn free-form job descriptions into validated, typed records using a Pydantic schema and LangChain's `PydanticOutputParser`. 
 
 ### 2. **Summarization**
 - Map-reduce chain demo
 - Action-item templates
 - Router prompts
 - Misclassification
+**Notebook:** [`2. Summarization.ipynb`](2.%20Summarization.ipynb)
+Map-reduce summarization of long arXiv papers, plus a structured action-item template for downstream automation.
 
 ### 3. **Agents**
 - Agent review
@@ -37,6 +40,8 @@ This tutorial is divided into five parts:
 - Researcher/Writer pipeline
 - Synchronous and Asynchronous crews
 - Compliance checklist creation
+**Notebook:** [`3. Agents.ipynb`](3.%20Agents.ipynb)
+A CrewAI multi-agent pipeline that audits real privacy policies against a GDPR/CCPA compliance checklist.
 
 ### 4. **ChatBot**
 - Embeddings
@@ -44,6 +49,10 @@ This tutorial is divided into five parts:
 - Retrieval Augmented Generation
 - Tool integration
 - Interactive agent
+**Notebook:** [`4. ChatBot.ipynb`](4.%20ChatBot.ipynb)
+A laptop-friendly RAG chatbot over a Wikipedia subset, using local sentence-transformer embeddings, Chroma, and tool use.
+
+Slides for the webinar live in [`slides/AutomateTheBoringStuff.pdf`](slides/AutomateTheBoringStuff.pdf).
 
 ## References
 
@@ -78,17 +87,6 @@ Set your Anthropic API key before running the notebooks:
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
 ```
-
-## Schedule
-
-| # | Notebook | What it covers |
-|---|----------|----------------|
-| 1 | [`1. Structured Extraction.ipynb`](1.%20Structured%20Extraction.ipynb) | Turn free-form job descriptions into validated, typed records using a Pydantic schema and LangChain's `PydanticOutputParser`. |
-| 2 | [`2. Summarization.ipynb`](2.%20Summarization.ipynb) | Map-reduce summarization of long arXiv papers, plus a structured action-item template for downstream automation. |
-| 3 | [`3. Agents.ipynb`](3.%20Agents.ipynb) | A CrewAI multi-agent pipeline that audits real privacy policies against a GDPR/CCPA compliance checklist. |
-| 4 | [`4. ChatBot.ipynb`](4.%20ChatBot.ipynb) | A laptop-friendly RAG chatbot over a Wikipedia subset, using local sentence-transformer embeddings, Chroma, and tool use. |
-
-Slides for the webinar live in [`slides/`](slides/) (`AutomateTheBoringStuff.pdf`).
 
 ## Author
 
