@@ -9,22 +9,9 @@
 [![Graphs For Science](https://img.shields.io/badge/Graphs_For_Science-Subscribe-blue)](https://graphs4sci.substack.com/)
 	[![Data Science Briefing](https://img.shields.io/badge/Sunday_Briefing-Subscribe-blue)](https://data4science.ck.page/a63d4cc8d9)
 
-### Code and slides to accompany the online webinar: https://data4sci.com/automate by Data For Science.
+### Code and slides to accompany the online webinar by Data For Science.
 
 LLMs are good at a surprising amount of the tedious work that fills a normal week — pulling structured fields out of free text, summarizing long documents, running multi-step reviews, and answering questions over a knowledge base. This webinar walks through four end-to-end Jupyter notebooks that show how to build each of those workflows with [LangChain](https://www.langchain.com/), [CrewAI](https://www.crewai.com/), and Anthropic's Claude, with practical guardrails, schemas, and evaluation patterns you can lift straight into your own projects.
-
-## References
-
-- [Hands-On Large Language Models](https://amzn.to/4d81BhV)
-- [AI Engineering: Building Applications with Foundation Models](https://amzn.to/4tRImAk)
-- [LLM Engineer's Handbook]( https://amzn.to/42M3VGs)
-- [Building LLM Powered Applications](https://amzn.to/48IhGJQ)
-- [Prompt Engineering for LLMs](https://amzn.to/3OW4RF6)
-- [LLMs in Production](https://amzn.to/3P3FfpN)
-- [Agentic Design Patterns](https://amzn.to/4w7wLi7)
-- [Generative AI with LangChain](https://amzn.to/3P3FHV1)
-- [AI Agents in Action](https://amzn.to/3P0Lpa0)
-- [Building AI Agents with LLMs, RAG, and Knowledge Graphs](https://amzn.to/4n4tU5i)
 
 ## Contents
 
@@ -57,6 +44,19 @@ This tutorial is divided into five parts:
 - Retrieval Augmented Generation
 - Tool integration
 - Interactive agent
+
+## References
+
+- [Hands-On Large Language Models](https://amzn.to/4d81BhV)
+- [AI Engineering: Building Applications with Foundation Models](https://amzn.to/4tRImAk)
+- [LLM Engineer's Handbook]( https://amzn.to/42M3VGs)
+- [Building LLM Powered Applications](https://amzn.to/48IhGJQ)
+- [Prompt Engineering for LLMs](https://amzn.to/3OW4RF6)
+- [LLMs in Production](https://amzn.to/3P3FfpN)
+- [Agentic Design Patterns](https://amzn.to/4w7wLi7)
+- [Generative AI with LangChain](https://amzn.to/3P3FHV1)
+- [AI Agents in Action](https://amzn.to/3P0Lpa0)
+- [Building AI Agents with LLMs, RAG, and Knowledge Graphs](https://amzn.to/4n4tU5i)
 
 ## Setup
 
