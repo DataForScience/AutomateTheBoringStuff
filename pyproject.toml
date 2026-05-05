@@ -8,4 +8,11 @@ dependencies = [
     "pandas",
     "watermark",
     "jupyter",
+    "tqdm>=4.67.3",
+    "pydantic>=2.13.3",
+    "langchain-anthropic>=1.4.2",
+    "datasets>=4.8.5",
+    "langchain-text-splitters>=1.1.2",
+    "crewai>=1.6.1",
+    "sentence-transformers>=5.4.1",
 ]
