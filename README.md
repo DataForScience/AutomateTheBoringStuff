@@ -23,6 +23,7 @@ This tutorial is divided into four parts:
 - Pydantic schema planning
 - JSON validation loop
 - Prompt guardrail patterns
+  
 **Notebook:** [`1. Structured Extraction.ipynb`](1.%20Structured%20Extraction.ipynb)
 Turn free-form job descriptions into validated, typed records using a Pydantic schema and LangChain's `PydanticOutputParser`. 
 
@@ -31,6 +32,7 @@ Turn free-form job descriptions into validated, typed records using a Pydantic s
 - Action-item templates
 - Router prompts
 - Misclassification
+  
 **Notebook:** [`2. Summarization.ipynb`](2.%20Summarization.ipynb)
 Map-reduce summarization of long arXiv papers, plus a structured action-item template for downstream automation.
 
@@ -40,6 +42,7 @@ Map-reduce summarization of long arXiv papers, plus a structured action-item tem
 - Researcher/Writer pipeline
 - Synchronous and Asynchronous crews
 - Compliance checklist creation
+  
 **Notebook:** [`3. Agents.ipynb`](3.%20Agents.ipynb)
 A CrewAI multi-agent pipeline that audits real privacy policies against a GDPR/CCPA compliance checklist.
 
@@ -49,6 +52,7 @@ A CrewAI multi-agent pipeline that audits real privacy policies against a GDPR/C
 - Retrieval Augmented Generation
 - Tool integration
 - Interactive agent
+  
 **Notebook:** [`4. ChatBot.ipynb`](4.%20ChatBot.ipynb)
 A laptop-friendly RAG chatbot over a Wikipedia subset, using local sentence-transformer embeddings, Chroma, and tool use.
 
