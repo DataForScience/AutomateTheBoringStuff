@@ -1,5 +1,5 @@
 [project]
-name = "template"
+name = "BoringStuff"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
@@ -14,5 +14,6 @@ dependencies = [
     "datasets>=4.8.5",
     "langchain-text-splitters>=1.1.2",
     "crewai>=1.6.1",
+    "langgraph>=0.4.0",
     "sentence-transformers>=5.4.1",
 ]
